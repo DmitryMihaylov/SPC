@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="693.0" prefWidth="1169.0" style="-fx-background-color: #1d1d1d;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.SecurityDataBaseSystems.main.ControllerWork">
+   <children>
+      <ImageView fitHeight="739.0" fitWidth="1207.0" layoutX="2.0" opacity="0.68" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/dark-background-images-5561-5821-hd-wallpapers.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#e4de27" layoutX="21.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ЦСН">
+         <font>
+            <Font size="51.0" />
+         </font>
+      </Text>
+      <Pane fx:id="pane" layoutX="222.0" layoutY="14.0" prefHeight="671.0" prefWidth="933.0" styleClass="Pane" stylesheets="@../../../Style.css" />
+      <VBox layoutX="14.0" layoutY="238.0" prefHeight="161.0" prefWidth="197.0">
+         <children>
+            <Button fx:id="buttonAdmin" mnemonicParsing="false" prefHeight="26.0" prefWidth="222.0" text="Администратор">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonControlSPC" mnemonicParsing="false" prefHeight="26.0" prefWidth="222.0" text="Управление ЦСН">
+               <font>
+                  <Font size="16.0" />
+               </font></Button>
+            <Button fx:id="buttonEmployees" mnemonicParsing="false" prefHeight="26.0" prefWidth="222.0" text="Сотрудники">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonSpecialOperation" mnemonicParsing="false" prefHeight="26.0" prefWidth="222.0" text="Спец. операции">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonJob" mnemonicParsing="false" prefHeight="32.0" prefWidth="200.0" text="Работа">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <Button fx:id="buttonBlock" layoutX="14.0" layoutY="81.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="197.0" text="Заблокировать">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonPrivateOffice" layoutX="14.0" layoutY="113.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="197.0" text="Личный кабинет">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <VBox layoutX="18.0" layoutY="535.0" prefHeight="59.0" prefWidth="190.0">
+         <children>
+            <Button fx:id="buttonSettings" mnemonicParsing="false" prefHeight="32.0" prefWidth="194.0" text="Настройки">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="buttonExit" mnemonicParsing="false" prefHeight="30.0" prefWidth="198.0" text="Выход">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <Button fx:id="PenetrationTesting" layoutX="18.0" layoutY="456.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="190.0" text="Тестирование на &#10;проникновение" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

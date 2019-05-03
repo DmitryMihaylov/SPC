@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="693.0" prefWidth="1169.0" style="-fx-background-color: #000;" styleClass="Pane" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.SecurityDataBaseSystems.main.ControllerDataBaseConnector">
+   <children>
+      <ImageView fitHeight="739.0" fitWidth="1207.0" layoutX="-8.0" layoutY="-10.0" opacity="0.68" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/dark-background-images-5561-5821-hd-wallpapers.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="15.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Подключение к базе данных">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="326.0" fitWidth="526.0" layoutX="605.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/MVD_Russia.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="89.0" layoutY="369.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Логин:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="93.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пароль:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fill="#e4de27" layoutX="25.0" layoutY="92.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ЦЕНТР СПЕЦИАЛЬНОГО НАЗНАЧЕНИЯ">
+         <font>
+            <Font name="Serif Regular" size="51.0" />
+         </font>
+      </Text>
+      <TextField fx:id="login" layoutX="243.0" layoutY="339.0" prefHeight="41.0" prefWidth="308.0" text="root">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="password" layoutX="243.0" layoutY="387.0" prefHeight="41.0" prefWidth="308.0" text="root">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </PasswordField>
+      <Text fill="WHITE" layoutX="86.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ip адрес:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="89.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Порт:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <TextField fx:id="port" layoutX="243.0" layoutY="287.0" prefHeight="41.0" prefWidth="308.0" text="3306">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="ip" layoutX="243.0" layoutY="240.0" prefHeight="41.0" prefWidth="308.0" text="127.0.0.1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Button fx:id="Enter" layoutX="460.0" layoutY="480.0" mnemonicParsing="false" text="Подключиться">
+         <font>
+            <Font size="27.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="buttonExit" layoutX="975.0" layoutY="610.0" mnemonicParsing="false" text="Выход">
+         <font>
+            <Font size="27.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</Pane>

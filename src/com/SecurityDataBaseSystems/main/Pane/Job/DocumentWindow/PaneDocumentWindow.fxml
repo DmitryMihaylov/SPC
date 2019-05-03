@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="609.0" prefWidth="922.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.SecurityDataBaseSystems.main.Pane.Job.DocumentWindow.ControllerDocumentWindow">
+   <children>
+      <ImageView fitHeight="697.0" fitWidth="984.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../images/dark-background-images-5561-5821-hd-wallpapers.jpg" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="textAreaDocument" layoutX="14.0" layoutY="116.0" prefHeight="431.0" prefWidth="902.0" promptText="Текст документа" wrapText="true" />
+      <TextField fx:id="textFieldDocumentHeader" layoutX="7.0" layoutY="57.0" prefHeight="41.0" prefWidth="860.0" promptText="Заголовок документа">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Button fx:id="buttonSendMessage" layoutX="14.0" layoutY="554.0" mnemonicParsing="false" text="Отправить сообщением">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonSaveDocument" layoutX="281.0" layoutY="554.0" mnemonicParsing="false" text="Сохранить изменения">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttoClear" layoutX="531.0" layoutY="554.0" mnemonicParsing="false" text="Очистить">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonDelete" layoutX="661.0" layoutY="554.0" mnemonicParsing="false" text="Удалить">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="14.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Идентификатор документа: ">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Text fx:id="textInformation" fill="#00d0ff" layoutX="884.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="i" wrappingWidth="31.7802734375">
+         <font>
+            <Font name="System Bold" size="46.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Text>
+      <Text fx:id="textIDdocument" fill="#ffea06" layoutX="410.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" " wrappingWidth="109.2646484375">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

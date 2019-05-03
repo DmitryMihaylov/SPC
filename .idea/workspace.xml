@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70271b1b-dd82-4bb9-b081-6176588030f9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="647856683">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dump/special_purpose_center_SpecialOperations.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/SecurityDataBaseSystems/Database/Authorization/Authorization.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+              <folding>
+                <marker date="1524845377048" expanded="true" signature="521:566" ph=" SELECT statement (AUTHORIZATION)" />
+                <marker date="1524845377048" expanded="true" signature="905:950" ph=" SELECT statement (AUTHORIZATION)" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/SecurityDataBaseSystems/main/Pane/Admin/ControllerPaneAdmin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3978">
+              <caret line="267" column="11" selection-start-line="267" selection-start-column="11" selection-end-line="267" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/SecurityDataBaseSystems/Database/Employees/Employees.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3553">
+              <caret line="214" column="51" selection-start-line="214" selection-start-column="51" selection-end-line="214" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SPC.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/SecurityDataBaseSystems/main/Pane/Admin/FieldChecker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2125">
+              <caret line="128" column="1" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dump/special_purpose_center_RSAkeys.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/SecurityDataBaseSystems/Database/SpecialOperations/SpecialOperations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <marker date="1524845377064" expanded="true" signature="2109:2140" ph=" SELECT statement (SPECIALOPERATIONS)" />
+                <marker date="1524845377064" expanded="true" signature="3104:3163" ph=" SELECT statement (SPECIALOPERATIONS)" />
+                <marker date="1524845377064" expanded="true" signature="3996:4040" ph=" SELECT statement (NAMESPECIALOPERATION)" />
+                <marker date="1524845377064" expanded="true" signature="4449:4492" ph=" UPDATE statement" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dump/special_purpose_center_System.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Дима" />
+        <option value="Yuri &lt;r0001xr@mail.ru&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/SPC.iml" />
+        <option value="$PROJECT_DIR$/src/com/SecurityDataBaseSystems/Database/SpecialOperations/Operation.java" />
+        <option value="$PROJECT_DIR$/src/com/SecurityDataBaseSystems/main/Pane/Admin/FieldChecker.java" />
+        <option value="$PROJECT_DIR$/src/com/SecurityDataBaseSystems/Database/Employees/Employees.java" />
+        <option value="$PROJECT_DIR$/src/com/SecurityDataBaseSystems/main/Pane/Admin/ControllerPaneAdmin.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="468" />
+    <option name="y" value="247" />
+    <option name="width" value="1613" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="specialperposecenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="specialperposecenter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="specialperposecenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="specialperposecenter" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="specialperposecenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="specialperposecenter" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="codeStyles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="specialperposecenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="specialperposecenter" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="libraries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="specialperposecenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="specialperposecenter" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="specialperposecenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="specialperposecenter" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="specialperposecenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="specialperposecenter" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="SPC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="specialperposecenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="specialperposecenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="specialperposecenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="specialperposecenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SecurityDataBaseSystems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="specialperposecenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="specialperposecenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SecurityDataBaseSystems" type="462c0819:PsiDirectoryNode" />
+              <item name="Crypto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="specialperposecenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="specialperposecenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SecurityDataBaseSystems" type="462c0819:PsiDirectoryNode" />
+              <item name="Database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="specialperposecenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="specialperposecenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SecurityDataBaseSystems" type="462c0819:PsiDirectoryNode" />
+              <item name="Database" type="462c0819:PsiDirectoryNode" />
+              <item name="Authorization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="specialperposecenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="specialperposecenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SecurityDataBaseSystems" type="462c0819:PsiDirectoryNode" />
+              <item name="Database" type="462c0819:PsiDirectoryNode" />
+              <item name="Employees" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="specialperposecenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="specialperposecenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SecurityDataBaseSystems" type="462c0819:PsiDirectoryNode" />
+              <item name="Documentation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="specialperposecenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="specialperposecenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SecurityDataBaseSystems" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="specialperposecenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="specialperposecenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SecurityDataBaseSystems" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Block" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="specialperposecenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="specialperposecenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SecurityDataBaseSystems" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Pane" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="specialperposecenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="specialperposecenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SecurityDataBaseSystems" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Pane" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/src" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.SecurityDataBaseSystems.main.Main" />
+      <module name="SPC" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.SecurityDataBaseSystems.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70271b1b-dd82-4bb9-b081-6176588030f9" name="Default" comment="" />
+      <created>1524123933040</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524123933040</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Основа&#10;Юрий Гудин">
+      <created>1524125616551</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1524125616552</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Основа&#10;Юрий Гудин">
+      <created>1524210243999</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1524210243999</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Дима комит успех">
+      <created>1524405514179</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1524405514179</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Дима комит успех">
+      <created>1524405534775</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1524405534775</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Дима комит успех">
+      <created>1524405819898</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1524405819898</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Дима комит успех">
+      <created>1524405969726</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1524405969726</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Дима комит успех">
+      <created>1524406142394</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1524406142394</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Дима комит успех">
+      <created>1524406405586</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1524406405586</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Дима - commit">
+      <created>1524406564084</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1524406564084</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Дима - commit">
+      <created>1524406906028</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1524406906028</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update Поиска, теперь вся информация записывается в поля на панеле&#10;Кнопка очистки возвращает на дефолтное состояние Choice-Box">
+      <created>1524952126090</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1524952126090</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Обработка нажатия кнопки Enter на поле поиска&#10;Кнопка удалить должна удалет сотрудника в базе по полю &quot;логин&quot; на форме">
+      <created>1524952809130</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1524952809130</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Добавлена поддержка кнопки &quot;Изменить&quot;.&#10;Работать с ней нужно следующим способом&#10;1) Ввести в поле поиска логин и нажать Enter&#10;2) Изменить некоторые поля которые нужно изменить&#10;3) Нажать кнопку изменить">
+      <created>1525115465705</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1525115465705</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26912752" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Project Explorer" order="4" />
+      <window_info id="Job Explorer" order="5" />
+      <window_info id="Colour Chooser" order="6" />
+      <window_info id="UI Designer" order="7" />
+      <window_info id="Image Layers" order="8" />
+      <window_info id="Favorites" order="9" side_tool="true" />
+      <window_info id="DB Browser" order="10" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.7320704" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5021322" side_tool="true" weight="0.10966341" />
+      <window_info anchor="bottom" id="Console" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49573562" weight="0.3297062" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3297062" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="FAQ Robot" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2260128" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Project Explorer" order="4" />
+      <window_info id="Job Explorer" order="5" />
+      <window_info id="Colour Chooser" order="6" />
+      <window_info id="UI Designer" order="7" />
+      <window_info id="Image Layers" order="8" />
+      <window_info id="Favorites" order="9" side_tool="true" />
+      <window_info id="DB Browser" order="10" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.10990207" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5021322" side_tool="true" visible="true" weight="0.10966341" />
+      <window_info anchor="bottom" id="Console" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49573562" weight="0.3297062" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3297062" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="FAQ Robot" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Основа&#10;Юрий Гудин" />
+    <MESSAGE value="Дима комит успех" />
+    <MESSAGE value="Дима - commit" />
+    <MESSAGE value="Update Поиска, теперь вся информация записывается в поля на панеле&#10;Кнопка очистки возвращает на дефолтное состояние Choice-Box" />
+    <MESSAGE value="Обработка нажатия кнопки Enter на поле поиска&#10;Кнопка удалить должна удалет сотрудника в базе по полю &quot;логин&quot; на форме" />
+    <MESSAGE value="Добавлена поддержка кнопки &quot;Изменить&quot;.&#10;Работать с ней нужно следующим способом&#10;1) Ввести в поле поиска логин и нажать Enter&#10;2) Изменить некоторые поля которые нужно изменить&#10;3) Нажать кнопку изменить" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлена поддержка кнопки &quot;Изменить&quot;.&#10;Работать с ней нужно следующим способом&#10;1) Ввести в поле поиска логин и нажать Enter&#10;2) Изменить некоторые поля которые нужно изменить&#10;3) Нажать кнопку изменить" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SecurityDataBaseSystems/Documentation/Yura/Блокировка" />
+    <entry file="file://$PROJECT_DIR$/src/com/SecurityDataBaseSystems/Documentation/Yura/Юра" />
+    <entry file="file://$PROJECT_DIR$/src/com/SecurityDataBaseSystems/Documentation/Обновления" />
+    <entry file="file://$PROJECT_DIR$/src/com/SecurityDataBaseSystems/main/Pane/Admin/PaneAdmin.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SecurityDataBaseSystems/Documentation/Document">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SecurityDataBaseSystems/Database/SpecialOperations/Operation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1921">
+          <caret line="123" column="52" selection-start-line="123" selection-start-column="52" selection-end-line="123" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SecurityDataBaseSystems/main/Log/Log.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SecurityDataBaseSystems/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/com_google_code_gson_gson_2_8_2.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/gson_1_1.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/dbnavigator.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml" />
+    <entry file="file://$PROJECT_DIR$/Dump/special_purpose_center_Employees.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dump/special_purpose_center_Documentation.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dump/special_purpose_center_Authorization.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dump/special_purpose_center_Access.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dump/special_purpose_center_SpecialOperations.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SecurityDataBaseSystems/Database/Authorization/Authorization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <marker date="1524845377048" expanded="true" signature="521:566" ph=" SELECT statement (AUTHORIZATION)" />
+            <marker date="1524845377048" expanded="true" signature="905:950" ph=" SELECT statement (AUTHORIZATION)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SecurityDataBaseSystems/main/Pane/Admin/ControllerPaneAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3978">
+          <caret line="267" column="11" selection-start-line="267" selection-start-column="11" selection-end-line="267" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SecurityDataBaseSystems/Database/Employees/Employees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3553">
+          <caret line="214" column="51" selection-start-line="214" selection-start-column="51" selection-end-line="214" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SPC.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SecurityDataBaseSystems/main/Pane/Admin/FieldChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="128" column="1" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dump/special_purpose_center_RSAkeys.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/SecurityDataBaseSystems/Database/SpecialOperations/SpecialOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <marker date="1524845377064" expanded="true" signature="2109:2140" ph=" SELECT statement (SPECIALOPERATIONS)" />
+            <marker date="1524845377064" expanded="true" signature="3104:3163" ph=" SELECT statement (SPECIALOPERATIONS)" />
+            <marker date="1524845377064" expanded="true" signature="3996:4040" ph=" SELECT statement (NAMESPECIALOPERATION)" />
+            <marker date="1524845377064" expanded="true" signature="4449:4492" ph=" UPDATE statement" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dump/special_purpose_center_System.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SPC</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>gson-1.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

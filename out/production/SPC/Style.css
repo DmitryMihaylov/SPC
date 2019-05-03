@@ -1,0 +1,337 @@
+.background {
+    -fx-background-color: #1d1d1d;
+}
+
+
+.text-area {
+        -fx-font-size: 15pt;
+        -fx-text-fill: #00CED1;
+        -fx-background-color: rgba(0,0,0,0.4);
+
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+
+.label {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: white;
+    -fx-opacity: 0.6;
+}
+
+.label-bright {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+
+.Pane {
+    -fx-border-color: #43CCCF;
+    -fx-background-color: rgba(0,0,0,0.5);
+}
+
+
+/*Текстовые поля*/
+
+.text-field {
+    -fx-background-color: #1d1d1d;
+    -fx-border-color: #61a2b1;
+    -fx-text-fill: white;
+
+}
+
+.text-field:focused {
+    -fx-background-color: #1d1d1d;
+    -fx-border-color: yellow;
+
+
+}
+
+/* Стилизация таблицы */
+
+    .table-view {
+       -fx-background-color: transparent;
+
+    }
+
+    .table-view:focused{
+        -fx-background-color: transparent;
+    }
+
+
+    .table-view .column-header-background{
+        -fx-background-color: linear-gradient(#131313 0%, #424141 100%);
+    }
+
+    .table-view .column-header-background .label{
+        -fx-background-color: transparent;
+        -fx-text-fill: white;
+    }
+
+    .table-view .column-header {
+        -fx-background-color: transparent;
+    }
+
+    .table-view .table-cell{
+        -fx-text-fill: white;
+    }
+
+    .table-row-cell{
+        -fx-background-color: -fx-table-cell-border-color, #616161;
+        -fx-background-insets: 0, 0 0 1 0;
+        -fx-padding: 0.0em; /* 0 */
+    }
+
+    .table-row-cell:odd{
+        -fx-background-color: -fx-table-cell-border-color, #424242;
+        -fx-background-insets: 0, 0 0 1 0;
+        -fx-padding: 0.0em; /* 0 */
+    }
+
+    .table-row-cell:selected {
+        -fx-background-color: #005797;
+        -fx-background-insets: 0;
+        -fx-background-radius: 1;
+    }
+
+    .table-view > .virtual-flow > .scroll-bar:vertical,
+    .table-view > .virtual-flow > .scroll-bar:vertical > .track,
+    .table-view > .virtual-flow > .scroll-bar:vertical > .track-background,
+    .table-view > .virtual-flow > .scroll-bar:horizontal,
+    .table-view > .virtual-flow > .scroll-bar:horizontal > .track,
+    .table-view > .virtual-flow > .scroll-bar:horizontal > .track-background {
+        -fx-background-color: transparent;
+    }
+
+
+
+    .table-view > .virtual-flow > .scroll-bar > .increment-button,
+    .table-view > .virtual-flow > .scroll-bar > .decrement-button {
+        -fx-opacity: 0;
+    }
+
+/* Стилизация кнопок */
+
+   .button {
+        -fx-text-fill: white;
+       -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+        -fx-padding: 10 20 10 20;
+        -fx-border-insets: 5px;
+        -fx-background-insets: 5px;
+        -fx-cursor: hand;
+
+    }
+
+   .button:hover {
+        -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+    }
+
+
+/*
+Tab Pane
+*/
+
+    .tab-pane .tab-header-area .tab-header-background {
+        -fx-opacity: 0;
+
+    }
+
+    .tab-pane
+    {
+        -fx-tab-min-width:90px;
+         -fx-border-color: #43CCCF;
+
+    }
+
+    .tab {
+        -fx-background-insets: 0 1 0 1,0,0;
+           -fx-cursor: hand;
+    }
+
+    .tab-pane .tab
+    {
+        -fx-background-color: #e6e6e6;
+         -fx-background-color: linear-gradient(#000, #000D29);
+
+    }
+
+    .tab-pane .tab:selected
+    {
+      -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+    }
+
+    .tab .tab-label {
+        -fx-alignment: CENTER;
+        -fx-text-fill: #0F4669;
+        -fx-font-size: 12px;
+        -fx-font-weight: bold;
+
+    }
+
+    .tab:selected .tab-label {
+        -fx-alignment: CENTER;
+        -fx-text-fill: #0FC6F5;
+    }
+
+
+    .list-view {
+      -fx-background-insets: 0;
+      -fx-padding: 0;
+      -fx-background-color:rgba(0,0,0,0);
+      -fx-text-fill: white;
+    }
+
+    #labelVBox {
+        -fx-text-fill: white;
+        -fx-font-size: 15 px;
+        -fx-font-weight: bold;
+    }
+
+    #labelVBox:hover {
+        -fx-text-fill: #0FC6F5;
+    }
+
+    #labelVBox:pressed {
+        -fx-text-fill: yellow;
+    }
+
+
+    .tree-view, .tree-cell {
+        -fx-background-color: rgba(0,0,0,0) ;
+        -fx-text-fill: white;
+        -fx-wrap-text: true;
+         -fx-width: 150px;
+        -fx-font-size: 20 px;
+
+    }
+    .tree-view, .label {
+    -fx-text-fill: white;
+    -fx-wrap-text: true;
+    }
+
+    .tree-cell:expanded, .tree-cell:sub-tree-item {
+        -fx-background-color: #404040 ;
+    }
+    .tree-cell:selected {
+        -fx-font-weight: bold ;
+    }
+    .tree-cell {
+        -fx-padding: 0.75em 0em 0.75em 0em;
+        -fx-wrap-text: true;
+    }
+    .tree-cell:sub-tree-item {
+        -fx-padding: 0.25em ;
+    }
+
+    .scroll-pane {
+        -fx-background-color: black;
+    }
+
+    .scroll-bar:horizontal, .scroll-bar:vertical{
+        -fx-background-color:transparent;
+    }
+
+    .increment-button, .decrement-button {
+        -fx-background-color: transparent;
+        -fx-border-color: transparent;
+    }
+
+    .scroll-bar:horizontal .track,
+    .scroll-bar:vertical .track{
+        -fx-background-color: transparent;
+        -fx-border-color: transparent;
+        -fx-background-radius: 0em;
+    }
+
+    .scroll-bar:horizontal .thumb,
+        .scroll-bar:vertical .thumb {
+            -fx-background-color: white;
+            -fx-background-radius: 5em;
+        }
+
+    .scroll-pane > .corner {
+        -fx-background-color: black;
+    }
+
+
+    #PaneMessage {
+        -fx-background-image: url("images/dark-background-images-5561-5821-hd-wallpapers.jpg");
+        -fx-border-color: white;
+    }
+
+    #PaneSpecialOperation {
+            -fx-background-image: url("images/dark-background-images-5561-5821-hd-wallpapers.jpg");
+            -fx-border-color: white;
+    }
+
+ /*Чек-боксы*/
+    .check-box .box {
+
+    -fx-background-color: rgba(0,0,0,0.5);
+    -fx-border-color:grey;
+    -fx-border-radius:3px;
+
+    }
+
+    .check-box:selected .mark {
+
+    -fx-background-color: white;
+
+    }
+
+    .check-box:selected .box {
+
+    -fx-background-color: #28a3f4;
+    }
+
+
+     /*choice-box*/
+
+
+    .choice-box .context-menu {
+    -fx-background-color: black;
+    }
+
+
+    .choice-box .menu-item:focused {
+    -fx-background-color: #0FC6F5;
+     }
+
+
+    .choice-box .menu-item > .label {
+     -fx-text-fill: white;
+     }
+
+
+    .choice-box .menu-item:focused > .label {
+    -fx-text-fill: black;
+    }
+
+
+    .choice-box {
+      -fx-background-color: black;
+      -fx-mark-color: #0FC6F5;
+    }
+
+    .choice-box > .label {
+    -fx-text-fill: white;
+     }
+
+     #PasswordGenerator {
+     -fx-background-image: url("images/dark-background-images-5561-5821-hd-wallpapers.jpg");
+     -fx-border-color: white;
+     }

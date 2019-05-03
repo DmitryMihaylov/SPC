@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane id="PaneSpecialOperation" fx:id="pane" prefHeight="671.0" prefWidth="933.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.SecurityDataBaseSystems.main.Pane.SpecialOperation.SpecialOperationWinow.ControllerSpecialOperationWindow">
+   <children>
+      <Text fx:id="textOperation" fill="WHITE" layoutX="6.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Операция: ">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Text>
+      <TabPane layoutX="14.0" layoutY="55.0" prefHeight="607.0" prefWidth="902.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Операция">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TextArea fx:id="textAreaDescription" layoutX="14.0" layoutY="48.0" prefHeight="517.0" prefWidth="878.0" />
+                        <Text fx:id="Allowance" fill="WHITE" layoutX="14.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Категория секретности:">
+                           <font>
+                              <Font size="26.0" />
+                           </font>
+                        </Text>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Участники">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="tableViewFIO" prefHeight="552.0" prefWidth="898.0">
+                           <columns>
+                              <TableColumn fx:id="tableCoulummFIO" prefWidth="321.0" text="ФИО" />
+                           </columns>
+                           <columnResizePolicy>
+                              <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                           </columnResizePolicy>
+                        </TableView>
+                     </children></AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="Материалы">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="tableViewMaterials" layoutX="7.0" layoutY="6.0" prefHeight="551.0" prefWidth="888.0">
+                          <columns>
+                            <TableColumn fx:id="tableCoulummMaterials" prefWidth="75.0" text="Список материалов" />
+                          </columns>
+                           <columnResizePolicy>
+                              <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                           </columnResizePolicy>
+                        </TableView>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="Цель">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Text fill="WHITE" layoutX="14.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Цель: ">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Text>
+                        <VBox layoutX="14.0" layoutY="107.0" prefHeight="414.0" prefWidth="263.0" styleClass="Pane">
+                           <children>
+                              <CheckBox mnemonicParsing="false" text="Задача 1" textFill="WHITE">
+                                 <font>
+                                    <Font size="25.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox mnemonicParsing="false" text="Задача 2" textFill="WHITE">
+                                 <font>
+                                    <Font size="25.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox mnemonicParsing="false" text="Задача 3" textFill="WHITE">
+                                 <font>
+                                    <Font size="25.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox mnemonicParsing="false" text="Задача 4" textFill="WHITE">
+                                 <font>
+                                    <Font size="25.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox mnemonicParsing="false" text="Задача 5" textFill="WHITE">
+                                 <font>
+                                    <Font size="25.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox mnemonicParsing="false" text="Задача 6" textFill="WHITE">
+                                 <font>
+                                    <Font size="25.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox mnemonicParsing="false" text="Задача 7" textFill="WHITE">
+                                 <font>
+                                    <Font size="25.0" />
+                                 </font>
+                              </CheckBox>
+                              <CheckBox mnemonicParsing="false" text="Задача 8" textFill="WHITE">
+                                 <font>
+                                    <Font size="25.0" />
+                                 </font>
+                              </CheckBox>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="286.0" layoutY="103.0" prefHeight="416.0" prefWidth="263.0" styleClass="Pane" AnchorPane.bottomAnchor="53.0">
+                           <children>
+                              <ProgressBar prefHeight="20.0" prefWidth="258.0" progress="0.57">
+                                 <padding>
+                                    <Insets bottom="18.0" />
+                                 </padding>
+                              </ProgressBar>
+                              <ProgressBar prefHeight="20.0" prefWidth="258.0" progress="0.68">
+                                 <padding>
+                                    <Insets bottom="18.0" />
+                                 </padding>
+                              </ProgressBar>
+                              <ProgressBar prefHeight="20.0" prefWidth="258.0" progress="0.37">
+                                 <padding>
+                                    <Insets bottom="18.0" />
+                                 </padding>
+                              </ProgressBar>
+                              <ProgressBar prefHeight="20.0" prefWidth="258.0" progress="0.57">
+                                 <padding>
+                                    <Insets bottom="18.0" />
+                                 </padding>
+                              </ProgressBar>
+                              <ProgressBar prefHeight="20.0" prefWidth="258.0" progress="0.57">
+                                 <padding>
+                                    <Insets bottom="18.0" />
+                                 </padding>
+                              </ProgressBar>
+                              <ProgressBar prefHeight="20.0" prefWidth="258.0" progress="0.44">
+                                 <padding>
+                                    <Insets bottom="18.0" />
+                                 </padding>
+                              </ProgressBar>
+                              <ProgressBar prefHeight="20.0" prefWidth="258.0" progress="0.57">
+                                 <padding>
+                                    <Insets bottom="18.0" />
+                                 </padding>
+                              </ProgressBar>
+                              <ProgressBar prefHeight="20.0" prefWidth="258.0" progress="0.8">
+                                 <padding>
+                                    <Insets bottom="18.0" />
+                                 </padding>
+                              </ProgressBar>
+                           </children>
+                        </VBox>
+                        <Text fill="WHITE" layoutX="21.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Задачи">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="286.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Прогресс">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <PieChart layoutX="549.0" layoutY="112.0" prefHeight="348.0" prefWidth="359.0" styleClass="Pane" />
+                        <Text fill="WHITE" layoutX="561.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Общий прогресс завершения">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Text>
+                        <Button layoutX="829.0" layoutY="6.0" mnemonicParsing="false" text="test" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</Pane>
